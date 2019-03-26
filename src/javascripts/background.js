@@ -143,7 +143,7 @@
             chrome.browserAction.getBadgeText({}, function(result) {
                 if (result < price) {
                     // price is increasing -> light green
-                    chrome.browserAction.setBadgeBackgroundColor({color: "#32ba39"});
+                    chrome.browserAction.setBadgeBackgroundColor({color: "#2f8759"});
                 } else if (result > price) {
                     // price is falling -> light red
                     chrome.browserAction.setBadgeBackgroundColor({color: "#f44141"});
