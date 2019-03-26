@@ -19,7 +19,7 @@
             responsive: true,
             title:{
                 display:true,
-                text:'DNR/USD 1 min. Price Chart'
+                text:'XQR/USD 1 min. Price Chart'
             },
             tooltips: {
                 mode: 'index',

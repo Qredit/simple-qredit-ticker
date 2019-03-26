@@ -5,23 +5,23 @@
      */
     var defaultVals = {
         'refresh_time': 15000,
-        'default_market': 'cmc',
+        'default_market': 'cryptocompare',
 		'last_updated': moment()
     };
 
     var markets = {
         'cmc': {
-            url: 'https://api.coinmarketcap.com/v1/ticker/denarius-dnr/',
+            url: 'https://api.coinmarketcap.com/v1/ticker/qredit/',
             key: '0.price_usd',
 			timestamp: ''
         },
         'cryptopia': {
-            url: 'https://www.cryptopia.co.nz/api/GetMarketHistory/DNR_BTC',
+            url: 'https://www.cryptopia.co.nz/api/GetMarketHistory/XQR_BTC',
             key: 'Data.Price',
 			timestamp: 'Data.TimeStamp'
         },
 		'cryptocompare': {
-			url: 'https://min-api.cryptocompare.com/data/price?fsym=DNR&tsyms=BTC,USD,EUR',
+			url: 'https://min-api.cryptocompare.com/data/price?fsym=XQR&tsyms=BTC,USD,EUR',
 			key: 'USD',
 			timestamp: ''
 		}

@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
 
-    "name": "Simple Denarius Ticker",
-    "description": "This extension shows latest price ticker of popular DNR trading markets.",
+    "name": "Simple Qredit Ticker",
+    "description": "This extension shows latest price ticker of popular XQR trading markets.",
     "version": "0.1",
 
     "browser_action": {
