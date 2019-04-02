@@ -3,7 +3,7 @@
 
     "name": "Simple Qredit Ticker",
     "description": "This extension shows latest price ticker of popular XQR trading markets.",
-    "version": "0.1",
+    "version": "0.4",
 
     "browser_action": {
         "default_icon": "images/icon.png",
