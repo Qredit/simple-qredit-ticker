@@ -20,3 +20,4 @@ It pulls the estimated USD price for Qredit [XQR] https://qredit.io
 ### License:
 
 The MIT License (MIT)
+ 
